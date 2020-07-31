@@ -71,6 +71,21 @@ _[Back to Contents](#Contents)_
 
 Chapter 3 introduces the application that you will make for the remainder of the book and advises that testing will be used through-out.
 
+We begin the TDD process, going through the red/green refactor cycle. 
+1. Write tests
+2. fail all tests because we havent written code yet
+3. write code to pass the failing test
+4. pass the test
+5. move on to next test and repeat 3..4
+
+The project now:
+- has RESTful routing
+- can create and show individual projects.
+- has strong_params
+- has flash messages
+- will render a title for the page depending on the instance passed in from the page itself
+- has basic validation
+p114
 _[Back to Contents](#Contents)_
 
 ----
